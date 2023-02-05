@@ -11,21 +11,24 @@ export default function InfoCard() {
                 <div className={Style.thecontainer}>
 
                     <div className={Style.card}>
-                        <h2>Lalomanu</h2>
                         <img src={Samoa1} alt='image samoa1' />
+                        <h2>Lalomanu</h2>
+                        <h3>White sandy beach on Upolu's eastern end</h3>
                         
                 </div>
                 
                     <div className={Style.card}>
-                        <h2>Lalomanu</h2>
                         <img src={Samoa1} alt='image samoa1' />
-                        
+                        <h2>Lalomanu</h2>
+                        <h3>White sandy beach on Upolu's eastern end</h3>
+
                 </div>
                 
                     <div className={Style.card}>
-                        <h2>Lalomanu</h2>
                         <img src={Samoa1} alt='image samoa1' />
-                        
+                        <h2>Lalomanu</h2>
+                        <h3>White sandy beach on Upolu's eastern end</h3>
+
                     </div>
                     
             </div>

@@ -7,8 +7,8 @@ import InfoCard from './Components/infocards';
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header>
-      <Searchbar></Searchbar> */}
+      <Header></Header>
+      <Searchbar></Searchbar>
       <InfoCard></InfoCard>
       
     </div>
