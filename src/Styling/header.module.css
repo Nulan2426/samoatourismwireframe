@@ -1,0 +1,85 @@
+.header {
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(116, 81, 28, 0.473);
+    /* align-content: flex-end; */
+}
+
+.samoa1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    margin: auto 100px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.rightside {
+    display: flex;
+    margin: auto 40%;
+    /* flex-direction: row;
+    justify-content: flex-end; */
+}
+
+
+.btn {
+    display: flex;
+    align-items: flex-start;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav {
+    list-style: none;
+    color: brown;
+    font-weight: bold;
+    background-color: rgb(233, 187, 37);
+    border-radius: 5px;
+    margin: 1px 4px;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: x-large;
+    top: 21px;
+    left: 1137px;
+    width: 200px;
+    height: 25px;
+    border: solid rgb(233, 187, 37);
+}
+
+.login {
+    list-style: none;
+    color: brown;
+    font-weight: bold;
+    background-color: rgb(233, 187, 37);
+    border-radius: 5px;
+    margin: 1px 4px;
+    padding: 8px 15px;
+    text-align: center;
+    font-size: x-large;
+    top: 21px;
+    left: 1137px;
+    width: 200px;
+    height: 25px;
+    border:solid brown;
+}
+
+.nav:hover {
+    background-color: #efd8e8;
+    color: white;
+    cursor: pointer;
+}
+
+.login:hover {
+    background-color: #efd8e8;
+    color: white;
+    cursor: pointer;
+}

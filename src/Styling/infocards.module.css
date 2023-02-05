@@ -1,0 +1,25 @@
+.thecontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 30px;
+    background: none;
+    border: solid green;
+    }
+
+.card {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: red;
+} 
+
+.card h2 {
+margin: 0;
+/* top:-180px; */
+display: flex;
+border: solid yellow;
+
+
+}
+

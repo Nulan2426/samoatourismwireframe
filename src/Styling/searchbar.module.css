@@ -1,0 +1,77 @@
+.searchbarmain {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbarmain img {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: auto;
+    opacity: 70%;
+
+}
+
+ .searchbar {
+    display: flex;
+    font-size: 50px;
+    border: rgba(116, 81, 28, 0.473);
+    text-align: center;
+    position: absolute;
+    }
+
+    .searchbar input {
+    display: flex;
+    font-size: 30px;
+    color: brown;
+    background: none;
+    border: dotted rgb(233, 187, 37);
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    height: fit-content;
+    margin-top: 200px;
+    /* padding: 60px; */
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    }
+
+
+    .searchbar button {
+        display: flex;
+        color: rgb(233, 187, 37);
+            font-size: 40px;
+            background: none;
+            border: none;
+            text-align: center;
+            position: absolute;
+            height: fit-content;
+            margin-top: 210px;
+            /* padding: 60px; */
+            font-family: 'Pacifico', cursive;
+            cursor: pointer;
+    }
+
+ 
+
+.explore  {
+        font-size: 40px;
+        font-weight: 100;
+        color: rgb(124, 66, 12);
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: -20;
+        height: fit-content;
+        padding: 200px;
+        /* margin: auto; */
+    }
+
+    .villagelist {
+        display: none;
+    }
+
+   
