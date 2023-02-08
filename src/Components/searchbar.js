@@ -35,11 +35,11 @@ export default function Searchbar() {
     }
     return (
         <div>
-            <div className={Style.searchbarmain}> <img src={Samoa5} alt='tourism image for samoa' />
+            <div className={Style.searchbarmain}> 
                 
                 <div className={Style.searchbar}><input 
                     type="text" 
-                    placeholder="    Search villages here . . ."
+                    placeholder="       Search villages here . . ."
                     onChange={handleChange}
                     value={searchInput} />
                     <button><VscSearch/></button>

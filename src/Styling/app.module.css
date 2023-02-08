@@ -1,0 +1,23 @@
+.container img {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    margin: auto 0;
+    opacity: 60%;
+    background: none;
+    
+}
+
+.searchbar {
+display: flex;
+padding-left: 1000px;
+
+}
+
+@media all and (max-width: 500px) {
+body {
+background: fixed;
+
+}
+    
+}

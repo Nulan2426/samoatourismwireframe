@@ -23,6 +23,16 @@
     justify-content: flex-start;
 }
 
+.leftside button {
+    /* display: none; */
+    position: absolute;
+    border: none;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    background: none;
+}
+
 .rightside {
     display: flex;
     margin: auto 40%;
@@ -47,7 +57,7 @@
     margin: 1px 4px;
     padding: 8px 15px;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     top: 21px;
     left: 1137px;
     width: 200px;
@@ -64,22 +74,23 @@
     margin: 1px 4px;
     padding: 8px 15px;
     text-align: center;
-    font-size: x-large;
+    font-size: large;
     top: 21px;
     left: 1137px;
     width: 200px;
     height: 25px;
-    border:solid brown;
+    border:solid rgba(116, 81, 28, 0.473);
 }
 
 .nav:hover {
-    background-color: #efd8e8;
+    background-color: rgb(81, 128, 230);
     color: white;
     cursor: pointer;
+    border: solid rgba(116, 81, 28, 0.473)
 }
 
 .login:hover {
-    background-color: #efd8e8;
+    background-color: rgb(81, 128, 230);
     color: white;
     cursor: pointer;
 }

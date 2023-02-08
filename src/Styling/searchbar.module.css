@@ -4,14 +4,14 @@
     justify-content: center;
 }
 
-.searchbarmain img {
+/* .searchbarmain img {
     width: 100%;
     height: 50%;
     padding: 0;
     margin: auto;
     opacity: 70%;
 
-}
+} */
 
  .searchbar {
     display: flex;
@@ -19,6 +19,7 @@
     border: rgba(116, 81, 28, 0.473);
     text-align: center;
     position: absolute;
+    
     }
 
     .searchbar input {
@@ -28,13 +29,14 @@
     background: none;
     border: dotted rgb(233, 187, 37);
     border-radius: 10px;
-    text-align: center;
+    text-align: left;
     position: absolute;
     height: fit-content;
     margin-top: 200px;
     /* padding: 60px; */
     font-family: 'Pacifico', cursive;
     cursor: pointer;
+    width: 600px;
     }
 
 
